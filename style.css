@@ -1,9 +1,10 @@
 body{
-    background: #B0F4FF;
+    background-image: url(images/fondo_mosaico.png);
+    background-repeat: repeat;
 }
 
 .container{
-    background-color: whitesmoke;
+    background-color: white;
     align-content: center;
 }
 
@@ -19,7 +20,7 @@ hr{
 }
 
 .targeta{
-    background: mediumseagreen;
+    background: none;
 }
 
 .targeta_primerlugar{
@@ -74,14 +75,15 @@ a > li{
 .targeta_menu{
     width: 200px;
     height: 30px;
-    background: deepskyblue;
-    margin-bottom: -10px;
+    background: none;
 }
 
 .targeta_completa{
     width: 800px;
     height: 250px;
-    background: #FFF977;
+    background: none;
+    border: solid;
+    border-width: 2px;
 }
 
 .targeta_image{
@@ -91,14 +93,14 @@ a > li{
 }
 
 .ingredientes > div{
-    background: #FFF977;
+    background: none;
     padding: 30px 0 30px 0;
 }
 
 .pasos{
     margin-right: 50px;
     margin-left: 50px;
-    background: deepskyblue;
+    background: none;
 }
 
 h1{
@@ -107,4 +109,13 @@ h1{
 
 h2{
     margin-left: 10%;
+}
+
+.img_miniatura{
+    height: 50px;
+}
+
+.great_img{
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
