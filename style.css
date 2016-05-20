@@ -1,0 +1,110 @@
+body{
+    background: #B0F4FF;
+}
+
+.container{
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+.bordeado-derecho > img{
+    padding-bottom: 0px;
+}
+
+hr{
+    margin-right: 30px;
+    margin-left: 30px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.targeta{
+    background: mediumseagreen;
+}
+
+.targeta_primerlugar{
+    background: gold;
+}
+
+.targeta_segundolugar{
+    background: silver;
+}
+
+.targeta_tercerlugar{
+    background: #cd7f32;
+}
+
+.targeta, .targeta_tercerlugar, .targeta_segundolugar, .targeta_primerlugar{
+    border-style: solid;
+    border-width: 2px;
+    width: 260px;
+    height: 260px;
+}
+
+.targeta > img, .targeta_primerlugar > img, .targeta_segundolugar > img, .targeta_tercerlugar > img{
+    width: 240px;
+    height: 165px;
+    padding-top: 10px;
+}
+
+
+/*link*/
+a:link{
+    text-decoration: none;
+    color: black;
+
+}
+
+a > li{
+    text-decoration: none;
+    color: black;
+
+}
+
+.recetarion_return{
+    width: 350px;
+    height: 120px;   
+}
+
+.menu{
+    border-right-style: solid;
+    border-right: 3px;
+}
+
+.targeta_menu{
+    width: 200px;
+    height: 30px;
+    background: deepskyblue;
+    margin-bottom: -10px;
+}
+
+.targeta_completa{
+    width: 800px;
+    height: 250px;
+    background: #FFF977;
+}
+
+.targeta_image{
+    width: 230px;
+    height: 230px;
+    padding-top: 10px;
+}
+
+.ingredientes > div{
+    background: #FFF977;
+    padding: 30px 0 30px 0;
+}
+
+.pasos{
+    margin-right: 50px;
+    margin-left: 50px;
+    background: deepskyblue;
+}
+
+h1{
+    margin-left: 8%;
+}
+
+h2{
+    margin-left: 10%;
+}
