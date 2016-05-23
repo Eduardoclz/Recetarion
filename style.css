@@ -78,19 +78,6 @@ a > li{
     background: none;
 }
 
-.targeta_completa{
-    width: 800px;
-    height: 250px;
-    background: none;
-    border: solid;
-    border-width: 2px;
-}
-
-.targeta_image{
-    width: 230px;
-    height: 230px;
-    padding-top: 10px;
-}
 
 .ingredientes > div{
     background: none;
@@ -116,6 +103,32 @@ h2{
 }
 
 .great_img{
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    width: 900px;
+}
+
+    .targeta_completa{
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: solid;
+        border-width: 2px;
+    }
+
+    .targeta_image{
+        width: 230px;
+        height: 230px;
+        padding-top: 10px;
+        
+    }
+
+@media screen and (min-width: 992px){
+    .targeta_completa{
+        width: 100%;
+        height: 250px;
+        background: none;
+        border: solid;
+        border-width: 2px;
+    }
 }
