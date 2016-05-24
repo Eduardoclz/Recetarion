@@ -50,7 +50,7 @@ hr{
 
 
 /*link*/
-a:link{
+a:link, a:visited{
     text-decoration: none;
     color: black;
 
